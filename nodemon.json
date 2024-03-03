@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json.schemastore.org/nodemon.json",
+    "exec": "node ./app.js",
+    "ext": ".env,js,json",
+    "ignore": [
+        ".git",
+        "node_modules",
+        "node_modules/**/node_modules",
+        "packages/payload/src/admin",
+        "packages/payload/src/**/*.spec.ts",
+        "test/**/payload-types.ts"
+    ]
+}
